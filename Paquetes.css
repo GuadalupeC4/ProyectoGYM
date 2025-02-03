@@ -1,0 +1,40 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2016/03/08/22/14/sport-1244925_640.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .9;
+}
+.paquetes .row{
+    padding: 70px 45px;
+}
+.column{
+    background-color: #004aad;
+}
+.paquetes .row .column{
+    width: 300px;
+    margin: auto 20px;
+    border-radius: 5%;
+    padding: 15px;
+}
+.paquetes .row .column img{
+    border-radius: 50%;
+    width: 35%;
+    margin: auto 30%;
+    margin-top: -50px;
+    border-color: #004aad;
+    border-style: solid;
+    border-width: 7px;
+}
+
+.paquetes .row .column .contenido{
+    padding: 20px 15px;
+}
+.paquetes .row .column .title{
+    text-align: center;
+}
+.paquetes .row .column .lista{
+    margin: auto 25px;
+} 
+.paquetes .row .column h4{
+    text-align: center;
+}

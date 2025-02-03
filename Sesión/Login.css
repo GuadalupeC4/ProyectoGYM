@@ -1,0 +1,67 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2016/03/08/22/14/sport-1244925_640.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    background-color: #004aad;
+    height: 50px;
+    width: 70px;
+    text-align: center;
+    border-radius: 5%;
+}
+header a{
+    text-decoration: none;
+}
+header a i{
+    margin: 5px 5px;
+}
+body .InicioS{
+    background-color: #004aad;
+    width: 400px;
+    height: 300px;
+    border-radius: 5%;
+    padding: 5px 30px;
+    margin: 130px 35%;
+
+}
+body .InicioS img{
+    border-radius: 50%;
+    width: 20%;
+    text-align: center;
+    border: 6px solid #004aad;
+    transform: translate(150px, -50px);
+}
+body .InicioS form{
+    text-align: center;
+    transform: translate(0px, -40px);
+}
+body .InicioS form h1{
+    color: white;
+}
+
+.pass-input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.icon-passw {
+    position: absolute;
+    right: 30px;
+    top: 42%;
+    transform: translateY(25%);
+    cursor: pointer;
+}
+
+button{
+    background-color: black;
+    margin-top: 25px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+}

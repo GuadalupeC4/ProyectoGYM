@@ -1,0 +1,49 @@
+
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2016/03/08/22/14/sport-1244925_640.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .9;
+
+}
+.Fs{
+    background-color: white; 
+    width: 600px;
+    margin: 100px 15px;
+    padding: 20px;
+    font-size: 40px;
+    color: blue;
+}
+.Fs .Bt_Info{
+    background-color: #004aad;
+    border-radius: 5px;
+    min-width: 30%;
+    max-width: 82%;
+    height: 20%;
+    margin: 10px 15%;
+}
+.Fs .Bt_Info p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+body footer{
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .RedesSociales{
+    margin: auto 25px;
+ }
+footer .Información{
+   padding: 15px;
+   width: 200px;
+   margin-right: 20%;
+   background-color: white;
+   border-radius: 2%;
+}
